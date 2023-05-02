@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rakesh websid </title>
+    <style>
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('img/rakesh.jpg');
+            background-size:1850px 1250px;
+            
+        }
+        .left{ 
+            display: inline-block;
+            /* border: 3px solid red; */
+            position: absolute;
+            top: 30px;
+           left: 60px;
+           text-align: center;
+           background-color: black;
+           font-size: 25px;
+           font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .left img{
+            width: 150px ;
+           /* filter: invert(10%); */
+        }
+        .center{
+            display: block; 
+            margin:30px auto;
+            width: 45%;
+            /* border: 3px solid green; */
+            border-radius: 15px;
+            
+           
+          
+        }
+        .right{
+            /* border: 3px solid yellow; */
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+           top: 30px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 30px 23px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: grey;
+        }
+        .cbse{
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 15px;
+        border: 3px solid rgb(175, 175, 229);
+        border-radius: 15px;
+        font-size: 20px;
+        cursor:pointer;
+        }
+        .cbse:hover{
+            color: grey;
+        }
+        .container{
+            /* border: 2px solid green; */
+            margin:190px 60px;
+            padding: 75px;
+            width: 28%;
+            border-radius: 10px;
+        }
+        .form.group input{
+       text-align: center;
+       display: block;
+       width: 308px;
+       padding: 6px;
+       border: 3px solid black;
+       margin: 8px auto;
+       font-size: 20px;
+       border-radius: 15px;
+        }
+        .container h1{
+            text-align: center;
+            color: rgb(6, 51, 32);
+        }
+        .container button{
+            display: block;
+            text-align: center;
+            margin: auto;
+            width: 80%;
+        }
+    </style>
+</head>
+<body>
+        <header class="header">
+            <div class="left">
+                <!-- lef tbox -->
+                <img src="img/pratik.jpg" alt="">
+               <div> Quite Baby</div>
+            </div>
+            <!-- center box -->
+            <div class="center">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">contact us</a></li>
+                    <li><a href="#">Knowledge club</a></li>
+                </ul>
+        </div>
+        <!-- right box -->
+        <div class="right">
+            <button class="cbse">Call us Now</button>
+            <button class="cbse">Email Us</button>
+     </div>
+    </header>
+    <div class="container">
+       <h1>Join the best computer center </h1>
+       <form action="noaction.php">
+        <div class="form group">
+            <input type="text"Name=""placeholder="Enter your name">
+        </div>
+        <div class="form group">
+            <input type="text"Name=""placeholder="Enter your Age">
+        </div>
+        <div class="form group">
+            <input type="text"Name=""placeholder="Enter your Gender">
+        </div>
+        <div class="form group">
+            <input type="text"Name=""placeholder="Enter your Add.">
+        </div>
+        <div class="form group">
+            <input type="text"Name=""placeholder="Enter your mob.">
+        </div>
+        <div class="form group">
+            <input type="text"Name=""placeholder="Enter your Email">
+        </div>
+        <button class="cbse">submit</button>
+       </form>
+    </div>
+</body>
+</html>
